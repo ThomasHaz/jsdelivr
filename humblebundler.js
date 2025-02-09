@@ -59,3 +59,8 @@ function logAndClear() {
 }
 
 get(["pdf", "mobi", "epub", "cbz", "zip", "prc", "pkg", "exe", "rar", "png"]);
+
+/* 
+   Once you have run the code on each page...
+   Call `logAndClear();` to output the content of the cookie (and delete it).
+*/
