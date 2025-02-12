@@ -8,3 +8,9 @@ Once you have visited the bookmarklet from each bundle you wish to download, ope
 `logAndClear();`
 
 You can copy the log entry to your terminal and batch download using curl.
+
+You can check the state of errors with:
+
+`find . -type f -name "*.err" -exec grep "curl" {} +`
+
+This will output eg `/example/filename.err:curl: (18) Transferred a partial file`
